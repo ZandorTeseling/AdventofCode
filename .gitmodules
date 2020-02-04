@@ -1,0 +1,3 @@
+[submodule "AOC_2019/Libs/gtest"]
+	path = AOC_2019/Libs/gtest
+	url = https://github.com/google/googletest.git
