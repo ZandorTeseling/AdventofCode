@@ -366,7 +366,7 @@ private:
 };
 
 
-class Day_Test : public ::testing::Test{
+class Day9Test : public ::testing::Test{
 public:
 
 protected:
@@ -380,7 +380,7 @@ protected:
 
 
 
-TEST_F ( Day_Test, attempt1P1)
+TEST_F ( Day9Test, attempt1P1)
 {
     m_intComp.resetMemory("InputDay9.txt");
     m_intComp.resetState();
@@ -389,7 +389,7 @@ TEST_F ( Day_Test, attempt1P1)
     m_intComp.runProgram();
 }
 
-TEST_F ( Day_Test, attempt1P2)
+TEST_F ( Day9Test, attempt1P2)
 {
     m_intComp.resetMemory("InputDay9.txt");
     m_intComp.resetState();
@@ -398,7 +398,7 @@ TEST_F ( Day_Test, attempt1P2)
     m_intComp.runProgram();
 }
 
-TEST_F (Day_Test, testCasesOpCodeValidity)
+TEST_F (Day9Test, testCasesOpCodeValidity)
 {
     vector<int64_t> t1{109,1,204,-1,1001,100,1,100,1008,100,16,101,1006,101,0,99};
     vector<int64_t> t2{1102,34915192,34915192,7,4,7,99,0};

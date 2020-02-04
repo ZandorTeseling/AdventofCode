@@ -4,6 +4,7 @@ cmake_minimum_required( VERSION 2.8)
 set( LIBS_PATH "${ADVENT_SOURCE_DIR}/Libs" )
 set( GTEST_LIBRARY ${LIBS_PATH}/gtest )
 set( GTEST_MAIN_LIBRARY ${LIBS_PATH}/gtest )
+set( GTEST_INCLUDE_DIR ${LIBS_PATH}/gtest )
 
 enable_testing()
 find_package(GTest REQUIRED)
